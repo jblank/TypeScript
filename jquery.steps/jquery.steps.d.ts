@@ -343,6 +343,7 @@ declare module JQuerySteps {
 
         /**
         * Indicates how the content will be loaded.
+        * This can be html (0), iframe (1), or async (2). 
         */
         contentMode?: string|number;
 
